@@ -124,6 +124,12 @@ python -m app
 ```
 Server hot reloading will be enabled on code changes.
 
+## Tests
+
+```
+python -m pytest
+```
+
 ## Deployment
 
 The application can either be run standalone or via docker;
