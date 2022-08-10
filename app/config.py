@@ -9,6 +9,9 @@ class Settings(BaseSettings):
     root_path: str = "/"
     port: int = 8001
 
+    class Config:
+        env_file = ".env"
+
 
 @lru_cache()
 def get_settings():

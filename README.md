@@ -4,13 +4,6 @@ Locally hosted API server to integrate a WS2080 weather station and the New Zeal
 - Requires an accessable instance of [WeeWX](https://www.weewx.com/docs.html) connected to the weather local station.
 - External MetService API calls are cached(60 seconds).
 
-## Deployment
-
-```
-docker build -t meteor_api .
-docker run -p 8001:8001 -d meteor_api
-```
-
 ## JSON Endpoints
 
 ### Forecasts
@@ -78,7 +71,7 @@ Returns an array of MetService rain map data.
 
 ### Isobaric Map Data
 
-Retuerns an array of MetService isobaric map data.
+Returns an array of MetService isobaric map data.
 
 *http://<server_ip>/iso-maps*
 
@@ -118,6 +111,39 @@ Returns the current local conditions.
     }
 }
 ```
+
+## Development
+
+Add a *.env* file to the project root with the following environmental variable;
+```
+DEBUG=1
+```
+To start the dev server run;
+```
+python -m app
+```
+Server hot reloading will be enabled on code changes.
+
+## Deployment
+
+The application can either be run standalone or via docker;
+
+```
+python -m app
+```
+
+```
+docker build -t meteor_api .
+docker run -p 8001:8001 -d meteor_api
+```
+
+## Settings
+
+The following variables may be configured in the *.env* file;
+| Variable     | Description       |
+| ------------ | ----------------- |
+| DEBUG        | 1 if enabled      |
+| PORT         | Defaults to 8001  |
 
 ## TODO
 
