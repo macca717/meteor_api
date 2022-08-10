@@ -56,6 +56,14 @@ def _parse_wind_str(wind_str: str):
 
 
 def parse_current_wx_data(xml_data_str: bytes):
+    """Parse the current weather XML data
+
+    Args:
+        xml_data_str (bytes): Data to parse
+
+    Returns:
+        Dict[str, Any]: Dict of parsed data
+    """
     parsed_data = {}
     doc = xmltodict.parse(xml_data_str)
     data_str: str = doc["rss"]["channel"]["item"][0]["description"]

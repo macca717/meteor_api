@@ -14,6 +14,14 @@ CACHE = LocalCache()
 
 
 async def get_forecasts(session: ClientSession) -> Forecast:
+    """Get the current MetService forecast data
+
+    Args:
+        session (ClientSession): Session
+
+    Returns:
+        Forecast: Forecast data
+    """
     route = METSERVICE_BASE_URL + "/publicData/localForecastChristchurch"
     if forecast := CACHE.get(route, 60):
         return forecast
@@ -24,6 +32,15 @@ async def get_forecasts(session: ClientSession) -> Forecast:
 
 
 async def get_rain_map_data(session: ClientSession) -> RainMaps:
+    """Get the current MetService rain map data
+
+    Args:
+        session (ClientSession): Session
+
+    Returns:
+        RainMaps: Rain map data
+    """
+    # TODO: Extract the city name as a function param
     route = METSERVICE_BASE_URL + "/publicData/rainRadarCHRISTCHURCH_2h_7min_300K"
     if maps := CACHE.get(route, 60):
         return maps
@@ -35,7 +52,15 @@ async def get_rain_map_data(session: ClientSession) -> RainMaps:
     return maps
 
 
-async def get_iso_map_data(session: ClientSession):
+async def get_iso_map_data(session: ClientSession) -> IsobaricMaps:
+    """Get the current MetService isobaric map data
+
+    Args:
+        session (ClientSession): Session
+
+    Returns:
+        IsobaricMaps: Isobaric map data
+    """
     route = METSERVICE_BASE_URL + "/publicData/tasmanSeaCombinedCharts"
     if maps := CACHE.get(route, 60):
         return maps
@@ -47,7 +72,16 @@ async def get_iso_map_data(session: ClientSession):
     return maps
 
 
-async def get_current_data(session: ClientSession):
+async def get_current_data(session: ClientSession) -> CurrentWeather:
+    """Get the current weather station conditions
+
+    Args:
+        session (ClientSession): Session
+
+    Returns:
+        CurrentWeather: Current weather data
+    """
+    # TODO: Move the weather staion IP to a function param
     route = "http://10.10.1.24/weather/app/rss.xml"
     if current := CACHE.get(route, 10):
         return current
