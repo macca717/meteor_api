@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+   <channel>
+      <title>Weather Conditions</title>
+      <link></link>
+      <description>Current conditions, and daily, monthly, and yearly summaries</description>
+      <language>en-us</language>
+      <pubDate>Wed, 06 Apr 2022 08:10:00 NZST</pubDate>
+
+      <lastBuildDate>Wed, 06 Apr 2022 08:10:00 NZST</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>weewx 4.5.1</generator>
+      <ttl>5.000000 minutes</ttl>
+      
+      <item>
+         <title>Weather Conditions at 06/04/22 08:10:00</title>
+         <link></link>
+         <description>
+           Outside temperature: 18.8&#176;C; 
+           Barometer: 997.6 mbar; 
+           Wind: 1 knots from 344&#176;; 
+           Rain rate: 0.0 mm/h; 
+           Inside temperature: 23.5&#176;C
+         </description>
+         <pubDate>Wed, 06 Apr 2022 08:10:00 NZST</pubDate>
+	     <geo:lat>-XX.XXXXXXXXXXXX</geo:lat>
+    	 <geo:long>XX.XXXXXXXXXXXX</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Time:                06/04/22 08:10:00<br/>
+             Outside Temperature: 18.8&#176;C<br/>
+             Inside Temperature:  23.5&#176;C<br/>
+             Wind Chill:          18.8&#176;C<br/>
+             Heat Index:          18.6&#176;C<br/>
+             Dewpoint:            13.5&#176;C<br/>
+             Humidity:            71%<br/>
+             Barometer:           997.6 mbar<br/>
+             Wind:                1 knots from 344&#176;<br/>
+             Rain Rate:           0.0 mm/h<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Daily Weather Summary as of 06/04/22 08:10:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 13.8&#176;C at 06:29:43;
+         	Max outside temperature: 19.0&#176;C at 00:00:51;
+	        Min inside temperature:  23.5&#176;C at 07:46:05;
+	        Max inside temperature:  24.6&#176;C at 00:00:51;
+	        Min barometer:           997.2 mbar at 06:51:49;
+	        Max barometer:           1001.7 mbar at 00:20:57;
+            Max wind :               6 knots from 338&#176; at 07:32:01;
+            Rain today:              0.0 mm
+         </description>
+         <pubDate>Wed, 06 Apr 2022 08:10:00 NZST</pubDate>
+	     <geo:lat>XX.XXXXXXXXXXXX</geo:lat>
+    	 <geo:long>XX.XXXXXXXXXXXX</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Day:                     06 Apr 2022<br/>
+	         Min Outside Temperature: 13.8&#176;C at 06:29:43<br/>
+	         Max Outside Temperature: 19.0&#176;C at 00:00:51<br/>
+	         Min Inside Temperature:  23.5&#176;C at 07:46:05<br/>
+	         Max Inside Temperature:  24.6&#176;C at 00:00:51<br/>
+	         Min Barometer:           997.2 mbar at 06:51:49<br/>
+	         Max Barometer:           1001.7 mbar at 00:20:57<br/>
+             Max Wind :               6 knots from 338&#176; at 07:32:01<br/>
+             Rain today:              0.0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Monthly Weather Summary as of 06/04/22 08:10:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 8.2&#176;C at 02/04/22 07:43:35;
+         	Max outside temperature: 20.6&#176;C at 05/04/22 21:34:10;
+	        Min inside temperature:  22.4&#176;C at 02/04/22 09:11:00;
+	        Max inside temperature:  26.7&#176;C at 01/04/22 00:00:26;
+	        Min barometer:           997.2 mbar at 06/04/22 06:51:49;
+	        Max barometer:           1025.8 mbar at 01/04/22 12:23:59;
+            Max wind :               17 knots from 248&#176; at 01/04/22 04:49:49;
+            Rain total for month:    1.2 mm
+         </description>
+         <pubDate>Wed, 06 Apr 2022 08:10:00 NZST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Month:                   April 2022<br/>
+	         Max Outside Temperature: 20.6&#176;C at 05/04/22 21:34:10<br/>
+	         Min Outside Temperature: 8.2&#176;C at 02/04/22 07:43:35<br/>
+	         Max Inside Temperature:  26.7&#176;C at 01/04/22 00:00:26<br/>
+	         Min Inside Temperature:  22.4&#176;C at 02/04/22 09:11:00<br/>
+	         Min Barometer:           997.2 mbar at 06/04/22 06:51:49<br/>
+	         Max Barometer:           1025.8 mbar at 01/04/22 12:23:59<br/>
+             Max Wind :               17 knots from 248&#176; at 01/04/22 04:49:49<br/>
+             Rain total for month:    1.2 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Yearly Weather Summary as of 06/04/22 08:10:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 3.9&#176;C at 28/02/22 07:10:45;
+         	Max outside temperature: 31.1&#176;C at 09/01/22 16:14:16;
+	        Min inside temperature:  21.6&#176;C at 28/02/22 08:38:10;
+	        Max inside temperature:  29.6&#176;C at 21/01/22 20:09:00;
+	        Min barometer:           997.2 mbar at 26/01/22 18:17:09;
+	        Max barometer:           1034.5 mbar at 23/02/22 22:55:05;
+            Max wind :               25 knots from 292&#176; at 26/01/22 21:16:01;
+            Rain total for year:     300.9 mm
+         </description>
+         <pubDate>Wed, 06 Apr 2022 08:10:00 NZST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Year:                    2022<br/>
+	         Max Outside Temperature: 31.1&#176;C at 09/01/22 16:14:16<br/>
+	         Min Outside Temperature: 3.9&#176;C at 28/02/22 07:10:45<br/>
+	         Max Inside Temperature:  29.6&#176;C at 21/01/22 20:09:00<br/>
+	         Min Inside Temperature:  21.6&#176;C at 28/02/22 08:38:10<br/>
+	         Min Barometer:           997.2 mbar at 26/01/22 18:17:09<br/>
+	         Max Barometer:           1034.5 mbar at 23/02/22 22:55:05<br/>
+             Max Wind :               25 knots from 292&#176; at 26/01/22 21:16:01<br/>
+             Rain total for year:     300.9 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+   </channel>
+</rss>

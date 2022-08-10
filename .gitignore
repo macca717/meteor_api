@@ -1,0 +1,50 @@
+# Byte-compiled files
+__pycache__/
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+
+dist/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# MacOS
+
+.DS_Store
+
+# Databases
+*.db
+
+# Coverage
+coverage_html/
+
+# Logs
+log.txt
+
+# Node
+
+node_modules/
+
+# Pants workspace files
+/.pants.d/
+/dist/
+/.pids
+/.pants.workdir.file_lock*
+
+# vscode
+.vscode/
