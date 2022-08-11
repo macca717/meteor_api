@@ -1,4 +1,4 @@
-from aiohttp import ClientSession, ClientTimeout
+from aiohttp import ClientSession
 
 from .common import fetch_bytes, fetch_json
 from .local_cache import LocalCache
@@ -7,22 +7,22 @@ from .wx_station import parse_current_wx_data
 
 __all__ = ["get_current_data", "get_forecasts", "get_iso_map_data", "get_rain_map_data"]
 
-TIMEOUT = ClientTimeout(total=10.0)
 METSERVICE_BASE_URL = "https://metservice.com"
 
 CACHE = LocalCache()
 
 
-async def get_forecasts(session: ClientSession) -> Forecast:
+async def get_forecasts(session: ClientSession, city: str) -> Forecast:
     """Get the current MetService forecast data
 
     Args:
         session (ClientSession): Session
+        city (str): City forecast location
 
     Returns:
         Forecast: Forecast data
     """
-    route = METSERVICE_BASE_URL + "/publicData/localForecastChristchurch"
+    route = METSERVICE_BASE_URL + f"/publicData/localForecast{city}"
     if forecast := CACHE.get(route, 60):
         return forecast
     data = await fetch_json(route, session)
@@ -31,17 +31,17 @@ async def get_forecasts(session: ClientSession) -> Forecast:
     return forecast
 
 
-async def get_rain_map_data(session: ClientSession) -> RainMaps:
+async def get_rain_map_data(session: ClientSession, radar_location: str) -> RainMaps:
     """Get the current MetService rain map data
 
     Args:
         session (ClientSession): Session
+        radar_location (str): Location of radar
 
     Returns:
         RainMaps: Rain map data
     """
-    # TODO: Extract the city name as a function param
-    route = METSERVICE_BASE_URL + "/publicData/rainRadarCHRISTCHURCH_2h_7min_300K"
+    route = METSERVICE_BASE_URL + f"/publicData/rainRadar{radar_location}_2h_7min_300K"
     if maps := CACHE.get(route, 60):
         return maps
     data = await fetch_json(route, session)
@@ -53,7 +53,7 @@ async def get_rain_map_data(session: ClientSession) -> RainMaps:
 
 
 async def get_iso_map_data(session: ClientSession) -> IsobaricMaps:
-    """Get the current MetService isobaric map data
+    """Get the current MetService isobaric map data for New Zealand(Tasman Sea)
 
     Args:
         session (ClientSession): Session
@@ -72,17 +72,18 @@ async def get_iso_map_data(session: ClientSession) -> IsobaricMaps:
     return maps
 
 
-async def get_current_data(session: ClientSession) -> CurrentWeather:
+async def get_current_data(
+    session: ClientSession, wx_station_url: str
+) -> CurrentWeather:
     """Get the current weather station conditions
 
     Args:
         session (ClientSession): Session
-
+        wx_station_url (str): URL of local wx station
     Returns:
         CurrentWeather: Current weather data
     """
-    # TODO: Move the weather staion IP to a function param
-    route = "http://10.10.1.24/weather/app/rss.xml"
+    route = f"{wx_station_url}/weather/app/rss.xml"
     if current := CACHE.get(route, 10):
         return current
     data = await fetch_bytes(route, session)

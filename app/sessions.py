@@ -1,21 +1,15 @@
-from typing import Optional
-
 import aiohttp
 
+_session = None
 
-async def get_session(base_url: Optional[str] = None):
-    """Get an aiohttp session helper
 
-    Args:
-        base_url (Optional[str], optional): Base request URL. Defaults to None.
+async def get_session():
+    global _session
+    if not _session:
+        _session = aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=15.0))
+    return _session
 
-    Yields:
-        ClientSession: Session
-    """
-    session = None
-    try:
-        session = aiohttp.ClientSession(base_url=base_url)
-        yield session
-    finally:
-        if session:
-            await session.close()
+
+async def close_session():
+    if _session:
+        await _session.close()
