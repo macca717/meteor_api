@@ -130,19 +130,6 @@ Server hot reloading will be enabled on code changes.
 python -m pytest
 ```
 
-## Deployment
-
-The application can either be run standalone or via docker;
-
-```
-python -m app
-```
-
-```
-docker build -t meteor_api .
-docker run -p 8001:8001 -d meteor_api
-```
-
 ## Settings
 
 The following variables can be configured in the *.env* file;
@@ -153,8 +140,27 @@ The following variables can be configured in the *.env* file;
 | PORT         | Defaults to 8001  |
 | CITY         | **Required.** City required for forecast data(see **Valid Cities**) |
 | RADAR_LOCATION | **Required.** Location of radar for rain map data(see **Valid Radar Locations**)
-| WX_STATION_URL | **Required.** URL of local weather station e.g 'http://192.168.1.1 |
+| WX_STATION_URL | **Required.** URL of local weather station e.g 'http://192.168.1.99 |
 
+## Deployment
+
+The application can either be run standalone;
+
+```
+python -m app
+```
+Or via Docker;
+
+```
+docker build -t meteor_api .
+```
+```
+docker run -p 8001:8001 \
+    -e CITY=Christchurch \
+    -e RADAR_LOCATION=nz \
+    -e WX_STATION_URL=http://192.168.1.99 \
+    -d meteor_api
+```
 
 ## Valid Cities
 
