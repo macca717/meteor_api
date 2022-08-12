@@ -1,0 +1,509 @@
+{
+  "_usage" : "This data is restricted and may only be used with explicit permission from MetService NZ. Contact dataenquiries@metservice.com",
+  "days" : [
+    {
+      "date" : "6 Apr",
+      "dateISO" : "2022-04-06T12:00:00+12:00",
+      "dow" : "Wednesday",
+      "dowTLA" : "Wed",
+      "forecast" : "Clouding over, then rain from late morning as northerlies change southerly, strong on Banks Peninsula. Rain easing evening.",
+      "forecastWord" : "Rain",
+      "issuedAt" : "5:12am 6 Apr",
+      "issuedAtISO" : "2022-04-06T05:12:00+12:00",
+      "issuedAtRaw" : 1649178720000,
+      "max" : "20",
+      "min" : "8",
+      "partDayData" : {
+        "afternoon" : {
+          "forecastWord" : "Rain",
+          "iconType" : "DAY"
+        },
+        "evening" : {
+          "forecastWord" : "Showers",
+          "iconType" : "NIGHT"
+        },
+        "morning" : {
+          "forecastWord" : "Showers",
+          "iconType" : "DAY"
+        },
+        "overnight" : {
+          "forecastWord" : "Partly cloudy",
+          "iconType" : "NIGHT"
+        }
+      },
+      "riseSet" : {
+        "day" : "6 April 2022",
+        "dayISO" : "2022-04-06T00:00:00+12:00",
+        "firstLight" : "6:22am",
+        "firstLightISO" : "2022-04-06T06:22:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:42pm",
+        "lastLightISO" : "2022-04-06T18:42:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "11:44am",
+        "moonRiseISO" : "2022-04-06T11:44:00+12:00",
+        "moonSet" : "8:42pm",
+        "moonSetISO" : "2022-04-06T20:42:00+12:00",
+        "sunRise" : "6:51am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-06T06:51:00+12:00",
+        "sunSet" : "6:13pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-06T18:13:00+12:00"
+      },
+      "source" : "IPS",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "7 Apr",
+      "dateISO" : "2022-04-07T12:00:00+12:00",
+      "dow" : "Thursday",
+      "dowTLA" : "Thu",
+      "forecast" : "A few showers with strong southwesterlies at first, then becoming fine and winds dying out in the afternoon.",
+      "forecastWord" : "Few showers",
+      "issuedAt" : "12:00am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:00:00+12:00",
+      "issuedAtRaw" : 1649160000000,
+      "max" : "14",
+      "min" : "3",
+      "partDayData" : {
+        "afternoon" : {
+          "forecastWord" : "Fine",
+          "iconType" : "DAY"
+        },
+        "evening" : {
+          "forecastWord" : "Fine",
+          "iconType" : "NIGHT"
+        },
+        "morning" : {
+          "forecastWord" : "Few showers",
+          "iconType" : "DAY"
+        },
+        "overnight" : {
+          "forecastWord" : "Showers",
+          "iconType" : "NIGHT"
+        }
+      },
+      "riseSet" : {
+        "day" : "7 April 2022",
+        "dayISO" : "2022-04-07T00:00:00+12:00",
+        "firstLight" : "6:23am",
+        "firstLightISO" : "2022-04-07T06:23:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:40pm",
+        "lastLightISO" : "2022-04-07T18:40:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "12:45pm",
+        "moonRiseISO" : "2022-04-07T12:45:00+12:00",
+        "moonSet" : "9:22pm",
+        "moonSetISO" : "2022-04-07T21:22:00+12:00",
+        "sunRise" : "6:52am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-07T06:52:00+12:00",
+        "sunSet" : "6:12pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-07T18:12:00+12:00"
+      },
+      "source" : "IPS",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "8 Apr",
+      "dateISO" : "2022-04-08T12:00:00+12:00",
+      "dow" : "Friday",
+      "dowTLA" : "Fri",
+      "forecast" : "Fine with a frosty morning. Evening cloud. Northwesterlies developing, then a fresh southwest change later.",
+      "forecastWord" : "Fine",
+      "issuedAt" : "11:17am 5 Apr",
+      "issuedAtISO" : "2022-04-05T11:17:00+12:00",
+      "issuedAtRaw" : 1649114220000,
+      "max" : "19",
+      "min" : "9",
+      "riseSet" : {
+        "day" : "8 April 2022",
+        "dayISO" : "2022-04-08T00:00:00+12:00",
+        "firstLight" : "6:24am",
+        "firstLightISO" : "2022-04-08T06:24:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:38pm",
+        "lastLightISO" : "2022-04-08T18:38:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "1:41pm",
+        "moonRiseISO" : "2022-04-08T13:41:00+12:00",
+        "moonSet" : "10:10pm",
+        "moonSetISO" : "2022-04-08T22:10:00+12:00",
+        "sunRise" : "6:53am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-08T06:53:00+12:00",
+        "sunSet" : "6:10pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-08T18:10:00+12:00"
+      },
+      "source" : "IPS",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "9 Apr",
+      "dateISO" : "2022-04-09T12:00:00+12:00",
+      "dow" : "Saturday",
+      "dowTLA" : "Sat",
+      "forecast" : "Fine, apart from morning cloud. Southwesterlies dying out in the afternoon.",
+      "forecastWord" : "Partly cloudy",
+      "issuedAt" : "11:17am 5 Apr",
+      "issuedAtISO" : "2022-04-05T11:17:00+12:00",
+      "issuedAtRaw" : 1649114220000,
+      "max" : "17",
+      "min" : "5",
+      "riseSet" : {
+        "day" : "9 April 2022",
+        "dayISO" : "2022-04-09T00:00:00+12:00",
+        "firstLight" : "6:25am",
+        "firstLightISO" : "2022-04-09T06:25:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:37pm",
+        "lastLightISO" : "2022-04-09T18:37:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "2:30pm",
+        "moonRiseISO" : "2022-04-09T14:30:00+12:00",
+        "moonSet" : "11:05pm",
+        "moonSetISO" : "2022-04-09T23:05:00+12:00",
+        "sunRise" : "6:54am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-09T06:54:00+12:00",
+        "sunSet" : "6:08pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-09T18:08:00+12:00"
+      },
+      "source" : "IPS",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "10 Apr",
+      "dateISO" : "2022-04-10T12:00:00+12:00",
+      "dow" : "Sunday",
+      "dowTLA" : "Sun",
+      "forecast" : "Fine. Northeasterlies.",
+      "forecastWord" : "Fine",
+      "issuedAt" : "12:30am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:30:00+12:00",
+      "issuedAtRaw" : 1649161800000,
+      "max" : "19",
+      "min" : "7",
+      "riseSet" : {
+        "day" : "10 April 2022",
+        "dayISO" : "2022-04-10T00:00:00+12:00",
+        "firstLight" : "6:26am",
+        "firstLightISO" : "2022-04-10T06:26:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:35pm",
+        "lastLightISO" : "2022-04-10T18:35:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "3:12pm",
+        "moonRiseISO" : "2022-04-10T15:12:00+12:00",
+        "sunRise" : "6:55am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-10T06:55:00+12:00",
+        "sunSet" : "6:07pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-10T18:07:00+12:00"
+      },
+      "source" : "eWasp Urban",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "11 Apr",
+      "dateISO" : "2022-04-11T12:00:00+12:00",
+      "dow" : "Monday",
+      "dowTLA" : "Mon",
+      "forecast" : "Fine with northwesterlies.",
+      "forecastWord" : "Fine",
+      "issuedAt" : "12:30am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:30:00+12:00",
+      "issuedAtRaw" : 1649161800000,
+      "max" : "21",
+      "min" : "7",
+      "riseSet" : {
+        "day" : "11 April 2022",
+        "dayISO" : "2022-04-11T00:00:00+12:00",
+        "firstLight" : "6:28am",
+        "firstLightISO" : "2022-04-11T06:28:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:33pm",
+        "lastLightISO" : "2022-04-11T18:33:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "3:47pm",
+        "moonRiseISO" : "2022-04-11T15:47:00+12:00",
+        "moonSet" : "12:06am",
+        "moonSetISO" : "2022-04-11T00:06:00+12:00",
+        "sunRise" : "6:57am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-11T06:57:00+12:00",
+        "sunSet" : "6:05pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-11T18:05:00+12:00"
+      },
+      "source" : "eWasp Urban",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "12 Apr",
+      "dateISO" : "2022-04-12T12:00:00+12:00",
+      "dow" : "Tuesday",
+      "dowTLA" : "Tue",
+      "forecast" : "Cloudy with northeasterlies.",
+      "forecastWord" : "Cloudy",
+      "issuedAt" : "12:30am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:30:00+12:00",
+      "issuedAtRaw" : 1649161800000,
+      "max" : "21",
+      "min" : "11",
+      "riseSet" : {
+        "day" : "12 April 2022",
+        "dayISO" : "2022-04-12T00:00:00+12:00",
+        "firstLight" : "6:29am",
+        "firstLightISO" : "2022-04-12T06:29:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:32pm",
+        "lastLightISO" : "2022-04-12T18:32:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "4:16pm",
+        "moonRiseISO" : "2022-04-12T16:16:00+12:00",
+        "moonSet" : "1:12am",
+        "moonSetISO" : "2022-04-12T01:12:00+12:00",
+        "sunRise" : "6:58am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-12T06:58:00+12:00",
+        "sunSet" : "6:03pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-12T18:03:00+12:00"
+      },
+      "source" : "eWasp Urban",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "13 Apr",
+      "dateISO" : "2022-04-13T12:00:00+12:00",
+      "dow" : "Wednesday",
+      "dowTLA" : "Wed",
+      "forecast" : "Partly cloudy with northwesterlies.",
+      "forecastWord" : "Partly cloudy",
+      "issuedAt" : "12:30am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:30:00+12:00",
+      "issuedAtRaw" : 1649161800000,
+      "max" : "21",
+      "min" : "12",
+      "riseSet" : {
+        "day" : "13 April 2022",
+        "dayISO" : "2022-04-13T00:00:00+12:00",
+        "firstLight" : "6:30am",
+        "firstLightISO" : "2022-04-13T06:30:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:30pm",
+        "lastLightISO" : "2022-04-13T18:30:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "4:41pm",
+        "moonRiseISO" : "2022-04-13T16:41:00+12:00",
+        "moonSet" : "2:19am",
+        "moonSetISO" : "2022-04-13T02:19:00+12:00",
+        "sunRise" : "6:59am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-13T06:59:00+12:00",
+        "sunSet" : "6:02pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-13T18:02:00+12:00"
+      },
+      "source" : "eWasp Urban",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "14 Apr",
+      "dateISO" : "2022-04-14T12:00:00+12:00",
+      "dow" : "Thursday",
+      "dowTLA" : "Thu",
+      "forecast" : "Partly cloudy. Light winds.",
+      "forecastWord" : "Partly cloudy",
+      "issuedAt" : "12:30am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:30:00+12:00",
+      "issuedAtRaw" : 1649161800000,
+      "max" : "18",
+      "min" : "9",
+      "riseSet" : {
+        "day" : "14 April 2022",
+        "dayISO" : "2022-04-14T00:00:00+12:00",
+        "firstLight" : "6:31am",
+        "firstLightISO" : "2022-04-14T06:31:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:29pm",
+        "lastLightISO" : "2022-04-14T18:29:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "5:04pm",
+        "moonRiseISO" : "2022-04-14T17:04:00+12:00",
+        "moonSet" : "3:29am",
+        "moonSetISO" : "2022-04-14T03:29:00+12:00",
+        "sunRise" : "7:00am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-14T07:00:00+12:00",
+        "sunSet" : "6:00pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-14T18:00:00+12:00"
+      },
+      "source" : "eWasp Urban",
+      "sourceTemps" : "IPS"
+    },
+    {
+      "date" : "15 Apr",
+      "dateISO" : "2022-04-15T12:00:00+12:00",
+      "dow" : "Friday",
+      "dowTLA" : "Fri",
+      "forecast" : "Partly cloudy. Light winds.",
+      "forecastWord" : "Partly cloudy",
+      "issuedAt" : "12:30am 6 Apr",
+      "issuedAtISO" : "2022-04-06T00:30:00+12:00",
+      "issuedAtRaw" : 1649161800000,
+      "max" : "17",
+      "min" : "8",
+      "riseSet" : {
+        "day" : "15 April 2022",
+        "dayISO" : "2022-04-15T00:00:00+12:00",
+        "firstLight" : "6:32am",
+        "firstLightISO" : "2022-04-15T06:32:00+12:00",
+        "id" : "loc11006",
+        "lastLight" : "6:27pm",
+        "lastLightISO" : "2022-04-15T18:27:00+12:00",
+        "location" : "Christchurch Aero AWS",
+        "moonRise" : "5:27pm",
+        "moonRiseISO" : "2022-04-15T17:27:00+12:00",
+        "moonSet" : "4:38am",
+        "moonSetISO" : "2022-04-15T04:38:00+12:00",
+        "sunRise" : "7:01am",
+        "sunRiseHour" : 7,
+        "sunRiseISO" : "2022-04-15T07:01:00+12:00",
+        "sunSet" : "5:58pm",
+        "sunSetHour" : 18,
+        "sunSetISO" : "2022-04-15T17:58:00+12:00"
+      },
+      "source" : "eWasp Urban",
+      "sourceTemps" : "IPS"
+    }
+  ],
+  "locationGFS" : "93781",
+  "locationIPS" : "CHRISTCHURCH",
+  "locationWASP" : "CHRISTCHURCH CENTRAL",
+  "saturdayForecastWord" : "Partly cloudy",
+  "sundayForecastWord" : "Fine",
+  "targeting" : [
+    {
+      "key" : "bravecto",
+      "location" : "any",
+      "value" : "false"
+    },
+    {
+      "key" : "hawkesbay",
+      "value" : "PARTLY CLOUDY"
+    },
+    {
+      "key" : "coldsnap",
+      "value" : "false"
+    },
+    {
+      "key" : "pollen",
+      "value" : "low"
+    },
+    {
+      "key" : "apiKey",
+      "value" : "christchurch"
+    },
+    {
+      "key" : "type",
+      "value" : "urban"
+    },
+    {
+      "key" : "island",
+      "value" : "towns-south-island"
+    },
+    {
+      "key" : "location",
+      "value" : "towns-christchurch"
+    },
+    {
+      "key" : "forecast24",
+      "value" : "RAIN"
+    },
+    {
+      "key" : "forecast48",
+      "value" : "FEW SHOWERS"
+    },
+    {
+      "key" : "forecastDay1",
+      "value" : "RAIN"
+    },
+    {
+      "key" : "forecastDay2",
+      "value" : "FEW SHOWERS"
+    },
+    {
+      "key" : "forecastDay3",
+      "value" : "FINE"
+    },
+    {
+      "key" : "forecastDay4",
+      "value" : "PARTLY CLOUDY"
+    },
+    {
+      "key" : "forecastDay5",
+      "value" : "FINE"
+    },
+    {
+      "key" : "minTemp24",
+      "value" : "8"
+    },
+    {
+      "key" : "maxTemp24",
+      "value" : "20"
+    },
+    {
+      "key" : "maxTemp48",
+      "value" : "14"
+    },
+    {
+      "key" : "satFrcst",
+      "value" : "Partly cloudy"
+    },
+    {
+      "key" : "sunFrcst",
+      "value" : "Fine"
+    },
+    {
+      "key" : "bbqIndex",
+      "value" : "1"
+    },
+    {
+      "key" : "bbqName",
+      "value" : "Christchurch"
+    },
+    {
+      "key" : "cdiTime",
+      "value" : "12 HOURS"
+    },
+    {
+      "key" : "cdiText",
+      "value" : "Washout"
+    },
+    {
+      "key" : "dwiMaxTemp",
+      "value" : "21°"
+    },
+    {
+      "key" : "dwiMaxTempTime",
+      "value" : "3:00pm"
+    },
+    {
+      "key" : "dwiWalkAM",
+      "value" : "6:00am to 12:00pm"
+    },
+    {
+      "key" : "dwiWalkPM",
+      "value" : "12:00pm to 9:00pm"
+    }
+  ]
+}

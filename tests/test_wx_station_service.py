@@ -1,13 +1,9 @@
-from pathlib import Path
-
 import pytest
 
 from app.wx_station import _degrees_to_cardinal, _parse_wind_str, parse_current_wx_data
 
-TEST_DIR = Path(__file__).parent
 
-
-def test_wx_station_parsing():
+def test_wx_station_parsing(test_data_dir):
     expected = dict(
         inside_temp=23.5,
         outside_temp=18.8,
@@ -15,7 +11,7 @@ def test_wx_station_parsing():
         rain_rate=0.0,
         wind=dict(cardinal_str="NNW", direction_degrees=344.0, speed_kts=1.0),
     )
-    with open(TEST_DIR / "test_data/wx_station.xml", "rb") as f:
+    with open(test_data_dir / "wx_station.xml", "rb") as f:
         assert parse_current_wx_data(f.read(-1)) == expected
 
 

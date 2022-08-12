@@ -1,52 +1,41 @@
-from fastapi.testclient import TestClient
-import pytest
-import app.external_services as external
-from app.__main__ import app
-from app.config import Settings, get_settings
-from app.models import CurrentWeather, Wind
+import json
 
 
-@pytest.fixture(scope="module")
-def client():
-    with TestClient(app) as client:
-        yield client
+def test_metservice_forcast_correct(client, monkeypatch, test_data_dir):
+    async def fetch_json_mock(*args, **kwargs):
+        with open(test_data_dir / "christchurch_forecast.json") as f:
+            return json.load(f)
 
-
-def get_settings_override():
-    return Settings(
-        city="Christchurch", radar_location="nz", wx_station_url="http://192.168.1.1"
-    )
-
-
-app.dependency_overrides[get_settings] = get_settings_override
-
-
-def test_metservice_forcast_correct(client):
+    monkeypatch.setattr("app.external_services.fetch_json", fetch_json_mock)
     response = client.get("/forecasts")
     assert response.status_code == 200
 
 
-def test_metservice_rain_correct(client):
+def test_metservice_rain_correct(client, monkeypatch, test_data_dir):
+    async def fetch_json_mock(*args, **kwargs):
+        with open(test_data_dir / "rain_radar.json") as f:
+            return json.load(f)
+
+    monkeypatch.setattr("app.external_services.fetch_json", fetch_json_mock)
     response = client.get("/rain-maps")
     assert response.status_code == 200
 
 
-def test_metservice_iso_correct(client):
+def test_metservice_iso_correct(client, monkeypatch, test_data_dir):
+    async def fetch_json_mock(*args, **kwargs):
+        with open(test_data_dir / "iso_maps.json") as f:
+            return json.load(f)
+
+    monkeypatch.setattr("app.external_services.fetch_json", fetch_json_mock)
     response = client.get("/iso-maps")
     assert response.status_code == 200
 
 
-def test_wx_current_correct(client, monkeypatch):
-    # Mock the local wx station here
-    async def mocked_current_data(*args, **kwargs):
-        return CurrentWeather(
-            outside_temp=10.0,
-            inside_temp=23.0,
-            pressure_MBar=1000.9,
-            rain_rate=1.0,
-            wind=Wind(speed_kts=10.9, direction_degrees=90.0, cardinal_str="E"),
-        )
+def test_wx_current_correct(client, monkeypatch, test_data_dir):
+    async def fetch_bytes_mock(*args, **kwargs):
+        with open(test_data_dir / "wx_station.xml", "rb") as f:
+            return f.read()
 
-    monkeypatch.setattr(external, "get_current_data", mocked_current_data)
-    response = client.get("/data")
+    monkeypatch.setattr("app.external_services.fetch_bytes", fetch_bytes_mock)
+    response = client.get("/current")
     assert response.status_code == 200

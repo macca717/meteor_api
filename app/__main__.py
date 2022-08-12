@@ -14,7 +14,7 @@ from .models import (
     LegacyCurrentWeather,
     RainMaps,
 )
-from .sessions import get_session, close_session
+from .sessions import close_session, get_session
 
 app = FastAPI()
 

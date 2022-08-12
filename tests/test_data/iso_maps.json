@@ -1,0 +1,86 @@
+{
+  "_usage" : "This data is restricted and may only be used with explicit permission from MetService NZ. Contact dataenquiries@metservice.com",
+  "imageData" : [
+    {
+      "description" : "Analysis for 6am Tue, 5 Apr",
+      "issuedTime" : "7:51am Tue, 5 Apr",
+      "issuedTimeISO" : "2022-04-05T07:51:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff5bbcd00-17ff5bbcd00-17ff5bbcd00-17ff621cf84.gif",
+      "validFromDateSegment" : "Tue, 5 Apr",
+      "validFromTime" : "6am Tue, 5 Apr",
+      "validFromTimeISO" : "2022-04-05T06:00:00+12:00",
+      "validFromTimeSegment" : "6am"
+    },
+    {
+      "description" : "Analysis for noon Tue, 5 Apr",
+      "issuedTime" : "4:11pm Tue, 5 Apr",
+      "issuedTimeISO" : "2022-04-05T16:11:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff7056400-17ff7056400-17ff7056400-17ff7eb4c9b.gif",
+      "validFromDateSegment" : "Tue, 5 Apr",
+      "validFromTime" : "noon Tue, 5 Apr",
+      "validFromTimeISO" : "2022-04-05T12:00:00+12:00",
+      "validFromTimeSegment" : "noon"
+    },
+    {
+      "description" : "Analysis for 6pm Tue, 5 Apr",
+      "issuedTime" : "8:50pm Tue, 5 Apr",
+      "issuedTimeISO" : "2022-04-05T20:50:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff84efb00-17ff84efb00-17ff84efb00-17ff8eb74e5.gif",
+      "validFromDateSegment" : "Tue, 5 Apr",
+      "validFromTime" : "6pm Tue, 5 Apr",
+      "validFromTimeISO" : "2022-04-05T18:00:00+12:00",
+      "validFromTimeSegment" : "6pm"
+    },
+    {
+      "description" : "Analysis for midnight Tue, 5 Apr",
+      "issuedTime" : "1:51am Wed, 6 Apr",
+      "issuedTimeISO" : "2022-04-06T01:51:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff9989200-17ff9989200-17ff9989200-17ff9fe468b.gif",
+      "validFromDateSegment" : "Tue, 5 Apr",
+      "validFromTime" : "midnight Tue, 5 Apr",
+      "validFromTimeISO" : "2022-04-06T00:00:00+12:00",
+      "validFromTimeSegment" : "midnight"
+    },
+    {
+      "description" : "Analysis for 6am Wed, 6 Apr",
+      "issuedTime" : "7:50am Wed, 6 Apr",
+      "issuedTimeISO" : "2022-04-06T07:50:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ffae22900-17ffae22900-17ffae22900-17ffb47b902.gif",
+      "validFromDateSegment" : "Wed, 6 Apr",
+      "validFromTime" : "6am Wed, 6 Apr",
+      "validFromTimeISO" : "2022-04-06T06:00:00+12:00",
+      "validFromTimeSegment" : "6am"
+    },
+    {
+      "description" : "Forecast for noon Wed, 6 Apr",
+      "issuedTime" : "10:28pm Tue, 5 Apr",
+      "issuedTimeISO" : "2022-04-05T22:28:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff84efb00-17ffc2bc000-17ffc2bc000-17ff944eb11.gif",
+      "validFromDateSegment" : "Wed, 6 Apr",
+      "validFromTime" : "noon Wed, 6 Apr",
+      "validFromTimeISO" : "2022-04-06T12:00:00+12:00",
+      "validFromTimeSegment" : "noon"
+    },
+    {
+      "description" : "Forecast for midnight Wed, 6 Apr",
+      "issuedTime" : "10:29pm Tue, 5 Apr",
+      "issuedTimeISO" : "2022-04-05T22:29:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff84efb00-17ffebeee00-17ffebeee00-17ff945dfe1.gif",
+      "validFromDateSegment" : "Wed, 6 Apr",
+      "validFromTime" : "midnight Wed, 6 Apr",
+      "validFromTimeISO" : "2022-04-07T00:00:00+12:00",
+      "validFromTimeSegment" : "midnight"
+    },
+    {
+      "description" : "Forecast for noon Thu, 7 Apr",
+      "issuedTime" : "10:30pm Tue, 5 Apr",
+      "issuedTimeISO" : "2022-04-05T22:30:00+12:00",
+      "url" : "/IcePics/fc/5d9-17ff84efb00-18001521c00-18001521c00-17ff947049d.gif",
+      "validFromDateSegment" : "Thu, 7 Apr",
+      "validFromTime" : "noon Thu, 7 Apr",
+      "validFromTimeISO" : "2022-04-07T12:00:00+12:00",
+      "validFromTimeSegment" : "noon"
+    }
+  ],
+  "selectedImageIndex" : 5
+}

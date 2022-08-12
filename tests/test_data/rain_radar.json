@@ -1,0 +1,92 @@
+[
+  {
+    "dateTimeISO" : "2022-04-06T08:05:00+12:00",
+    "longDateTime" : "8:05am Wed, 6 Apr",
+    "shortDateTime" : "8:05am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T08:05:00+12:00",
+    "validFrom" : "8:05am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T08:05:00+12:00",
+    "validFromRaw" : 1649189100000,
+    "validToex" : "8:05am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:58:00+12:00",
+    "longDateTime" : "7:58am Wed, 6 Apr",
+    "shortDateTime" : "7:58am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:58:00+12:00",
+    "validFrom" : "7:58am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:58:00+12:00",
+    "validFromRaw" : 1649188680000,
+    "validToex" : "7:58am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:50:00+12:00",
+    "longDateTime" : "7:50am Wed, 6 Apr",
+    "shortDateTime" : "7:50am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:50:00+12:00",
+    "validFrom" : "7:50am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:50:00+12:00",
+    "validFromRaw" : 1649188200000,
+    "validToex" : "7:50am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:43:00+12:00",
+    "longDateTime" : "7:43am Wed, 6 Apr",
+    "shortDateTime" : "7:43am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:43:00+12:00",
+    "validFrom" : "7:43am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:43:00+12:00",
+    "validFromRaw" : 1649187780000,
+    "validToex" : "7:43am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:35:00+12:00",
+    "longDateTime" : "7:35am Wed, 6 Apr",
+    "shortDateTime" : "7:35am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:35:00+12:00",
+    "validFrom" : "7:35am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:35:00+12:00",
+    "validFromRaw" : 1649187300000,
+    "validToex" : "7:35am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:28:00+12:00",
+    "longDateTime" : "7:28am Wed, 6 Apr",
+    "shortDateTime" : "7:28am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:28:00+12:00",
+    "validFrom" : "7:28am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:28:00+12:00",
+    "validFromRaw" : 1649186880000,
+    "validToex" : "7:28am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:20:00+12:00",
+    "longDateTime" : "7:20am Wed, 6 Apr",
+    "shortDateTime" : "7:20am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:20:00+12:00",
+    "validFrom" : "7:20am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:20:00+12:00",
+    "validFromRaw" : 1649186400000,
+    "validToex" : "7:20am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:13:00+12:00",
+    "longDateTime" : "7:13am Wed, 6 Apr",
+    "shortDateTime" : "7:13am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:13:00+12:00",
+    "validFrom" : "7:13am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:13:00+12:00",
+    "validFromRaw" : 1649185980000,
+    "validToex" : "7:13am Wed, 6 Apr"
+  },
+  {
+    "dateTimeISO" : "2022-04-06T07:05:00+12:00",
+    "longDateTime" : "7:05am Wed, 6 Apr",
+    "shortDateTime" : "7:05am Wed",
+    "url" : "/publicData/rainRadar/image/CHRISTCHURCH/300K/2022-04-06T07:05:00+12:00",
+    "validFrom" : "7:05am Wed, 6 Apr",
+    "validFromISO" : "2022-04-06T07:05:00+12:00",
+    "validFromRaw" : 1649185500000,
+    "validToex" : "7:05am Wed, 6 Apr"
+  }
+]
