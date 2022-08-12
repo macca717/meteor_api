@@ -36,3 +36,9 @@ jobs:
     - name: Test with pytest
       run: |
         python -m pytest
+    - name: Check Formatting
+      run: |
+          black --check --verbose .
+    - name: Check Import Sorting
+      run: |
+          isort --check .
