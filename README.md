@@ -2,7 +2,7 @@
 
 Locally hosted API server to integrate a WS2080 weather station and the New Zealand MetService public API. This allows current local weather data to be combined with forecast data and maps from the MetService. 
 - Requires an accessable instance of [WeeWX](https://www.weewx.com/docs.html) connected to the local weather station.
-- External MetService API calls are cached(60 seconds).
+- External MetService API calls are cached (60 seconds).
 
 ## JSON Endpoints
 
@@ -138,9 +138,9 @@ The following variables can be configured in the *.env* file;
 | DEBUG        | 1 if enabled      |
 | HOST         | Defaults to 0.0.0.0 |
 | PORT         | Defaults to 8001  |
-| CITY         | **Required.** City required for forecast data(see **Valid Cities**) |
-| RADAR_LOCATION | **Required.** Location of radar for rain map data(see **Valid Radar Locations**)
-| WX_STATION_URL | **Required.** URL of local weather station e.g 'http://192.168.1.99 |
+| CITY         | **Required.** City required for forecast data (see **Valid Cities**) |
+| RADAR_LOCATION | **Required.** Location of radar for rain map data (see **Valid Radar Locations**)
+| WX_STATION_URL | **Required.** URL of local weather station e.g http://192.168.1.99 |
 
 ## Deployment
 
